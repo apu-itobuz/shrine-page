@@ -1,0 +1,591 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*a{
+  color: #000;
+}
+* ul li {
+  list-style-type: none
+  
+}
+* ul li a{
+ text-decoration: none;
+}
+// nav-----------------------------------------
+nav.desk-view{
+  display: none;
+}
+nav.mob-view{
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: 0 auto;
+  align-items: center;
+  padding: 10px 0;
+}
+.logo-wrap{
+  width: 130px;
+}
+.logo-wrap img{
+  width: 100%;
+}
+.header-right{
+  display: flex;
+}
+.srch-icon{
+  margin-right: 15px;
+}
+
+// navOption---------------
+.navOption{
+  width: 40%;
+  margin: auto;
+  
+}
+.navOption ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 8px;
+  margin-top: 10px;
+
+}
+.naveOptionHome{
+  color: #747A82;
+}
+
+
+
+
+// nav{
+//   width: 60%;
+//   margin: auto;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+// }
+// .navOption{
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   font-size: 12px;
+//   }
+//   .navOption ul li:nth-child(1){
+//     a{
+//       color: #747A82;
+
+//     }
+//   }
+// hero-section
+.heroSection {
+  width: 60%;
+  margin: auto;
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.heroSecHouse {
+  height: 200px;
+  width: 100%;
+}
+
+.heroSecHouse img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+  border-radius: 10px;
+}
+.heroSecGirl {
+  // height: 400px
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.heroSecGirl img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+  border-radius: 10px;
+}
+.notebook img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+  border-radius: 10px;
+}
+
+// //   card-section
+.cardSection {
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 60%;
+  margin: auto;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.cardHeading h2 {
+  font-size: 2rem;
+}
+.cardPara p {
+  color: #747a82;
+}
+
+.card {
+  width: 100%;
+  height: 450px;
+  max-width: 450px;
+  background-color: #ffe6e0;
+  border-radius: 50px 50px 50px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+}
+.cardHeading h2 {
+  border-left: 5px solid rgb(255, 0, 0);
+  padding-left: 5px;
+}
+.card p {
+  line-height: 23px;
+  font-weight: 100;
+  color: #747a82;
+}
+.circle {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle img {
+  height: 60%;
+  width: 60%;
+}
+.learnMore {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.arrow {
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  background-color: #c0304f;
+  color: #fff;
+}
+// even-section
+*p {
+  color: #747a82;
+}
+
+.evenSection {
+  width: 60%;
+  margin: auto;
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.evenCards {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  margin: auto;
+}
+.evenCard {
+  border: 2px solid rgba(116, 122, 130, 0.0588235294);
+  border-radius: 17px;
+  width: 100%;
+  margin: auto;
+  margin-top: 5%;
+}
+.evenCardEnfo {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.evenPara {
+  color: #747a82;
+  margin-top: 10px;
+}
+.evenHeading h2 {
+  border-left: 5px solid rgb(255, 0, 0);
+  padding-left: 5px;
+}
+
+.evenCardImage {
+  width: 100%;
+}
+.evenCardImage img {
+  width: 100%;
+  object-fit: cover;
+  object-position: cover cover;
+}
+.evenCardHeading {
+  width: 100%;
+}
+.evenTime {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.joinNow {
+  width: 5rem;
+  padding: 10px;
+  font-size: 10px;
+  background-color: #232526;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+.box{
+  width: 1rem;
+  height: 1rem;
+  border: 1px solid #DDDDDD;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+.evenBox{
+display: flex;
+gap: 5px;
+align-items: center;
+margin: auto;
+
+}
+.noOne{
+background-color: #d03859;
+color: #fff;
+
+}
+// .footer-section
+.footerSection{
+  padding: 20px;
+  width: 60%;
+  margin: auto;
+  background-color: #0d0b0b;
+
+}
+.footerPart{
+  border-bottom: 2px solid #393636;
+  border-top: 2px solid #393636;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+  // margin: 20px;
+}
+.footerLinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  padding: 10px;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+ 
+
+}
+
+.footerLinks ul li {
+  line-height: 25px;
+  
+}
+.footerInfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+
+}
+.footerInfoPara{
+  width: 80%;
+  text-align: center;
+}
+.footerLinks a{
+  color: #747a82;
+}
+.footerLinks ul li:nth-child(1){
+  a{
+  color: #fff;
+  }
+}
+.formHeading{
+  color: #fff;
+  text-align: center;
+}
+.footerForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.subscribe{
+  background-color: #c0304f;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+.formPara{
+  text-align: center;
+}
+.inputEmail{
+  border: none;
+  padding: 10px;
+  font-size: 10px;
+  border-radius: 10px;
+  background-color: #2F3032;
+}
+.icon img{
+  width: 100%;
+}
+
+.CopyrightText{
+  text-align: center;
+}
+.footerIcon{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 10px;
+}
+//-----------------BREAK-POINT--------------
+@media only screen and (min-width: 768px) {
+  .mob-view{
+    display: none !important;
+  }
+  .desk-view {
+    display: block !important;
+    width: 60% !important;
+    margin: 0 auto;
+} 
+
+  .navSaction{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    // border-bottom: 1px solid #ccc;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  
+.navSaction ul{
+  display: flex;
+  border-bottom: 1px solid #d2d2d2;
+  // gap: 10px;
+}
+.navSaction ul li {
+  margin: 0 10px;
+  padding-bottom: 10px;
+  // font-size: 10px;
+}
+.navOption ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 8px;
+  margin-top: 2rem;
+
+}
+
+.navSaction ul li.current-menu-item{
+  position: relative;
+}
+.navSaction ul li.current-menu-item:after{ //---------------------
+  width: 100%;
+  height: 2px;
+  border-radius: 2px;
+  background-color: rgb(176, 47, 75);
+  content: "";
+  position: absolute;
+  bottom: 9px;
+  left: 0;
+}
+
+ 
+    // .navImage{
+    //   position: relative;
+    //   background: #fff;
+    //   padding: 0px 20px 10px 20px;
+    //   bottom: -15px;
+    // }
+
+//hero--------------------------------------
+
+.heroSection {
+  margin: auto;
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+    .heroSecHouse {
+      height: 410px;
+      width: 70%;
+      
+    }
+  .heroSecHouse img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 10px;
+  }
+  .heroSecGirl {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .girl {
+    height: 270px;
+  }
+  .heroSecGirl img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+  .notebook {
+    height: 125px;
+  }
+  .notebook img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+
+  // card-section-------------------------------------------------
+  .card {
+    width: 50%;
+  }
+  .evenCard {
+    width: 30%;
+  }
+  .card p {
+    line-height: 20px;
+    font-weight: 100;
+    color: #747a82;
+    text-align: center;
+  }
+  .cardHeading h2 {
+    width: 60%;
+  }
+  .cards {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  // even-section
+  .evenInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .evenHeading {
+    width: 30%;
+  }
+  .evenPara {
+    width: 40%;
+  }
+  .evenCards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+  }
+  .evenCardPara p {
+    width: 100%;
+  }
+
+// footer-section
+
+.footerInfo{
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footerLinks{
+  flex-direction: row;
+  text-align: start;
+}
+.formPara{
+  text-align: start;
+}
+.footerForm{
+  text-align: start;
+  align-items: flex-start;
+}
+
+.formPara{
+   text-align: start;
+  }
+
+.footerIcon{
+  padding: 20px 0px;
+  
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 20px;
+}
+}
+
+
+
+//-----------------BREAK-POINT--------------
+@media only screen and (min-width: 1020px) {
+  .cards {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .cardHeading h2 {
+    width: 40%;
+  }
+
+  .footerPart{
+    flex-direction: row;
+  }
+  .footerInfoPara{
+    width: 40%;
+  }
+  // .formHeading{
+  //   text-align: start;
+  // }
+  // .formPara{
+  //   text-align: start;
+  // }
+  // .formInput{
+  //   text-align: start;
+  // }
+}
