@@ -96,16 +96,7 @@ nav.mob-view {
   gap: 1rem;
 }
 
-.heroSecGirl img {
-  height: 100%;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center center;
-     object-position: center center;
-  border-radius: 10px;
-}
-
+.heroSecGirl img,
 .notebook img {
   height: 100%;
   width: 100%;
@@ -149,7 +140,6 @@ nav.mob-view {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  text-align: center;
   padding: 1rem;
 }
 

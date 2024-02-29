@@ -71,9 +71,6 @@ nav.mob-view {
 }
 
 
-
-
-
 // hero-section
 .heroSection {
   width: 60%;
@@ -98,21 +95,13 @@ nav.mob-view {
 }
 
 .heroSecGirl {
-
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
-.heroSecGirl img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  object-position: center center;
-  border-radius: 10px;
-}
-
+.heroSecGirl img,
 .notebook img {
   height: 100%;
   width: 100%;
@@ -121,7 +110,8 @@ nav.mob-view {
   border-radius: 10px;
 }
 
-// //   card-section
+
+//   card-section
 .cardSection {
   padding: 20px 0px;
   display: flex;
@@ -155,7 +145,6 @@ nav.mob-view {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  text-align: center;
   padding: 1rem;
 }
 
