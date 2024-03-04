@@ -443,7 +443,9 @@ nav.mob-view {
   .navSaction ul li.current-menu-item {
     position: relative;
   }
-
+.navSaction #search{
+  margin-bottom: 10px;
+}
   .navSaction ul li.current-menu-item:after {
     //---------------------
     width: 100%;
@@ -621,3 +623,15 @@ nav.mob-view {
 
 
 }
+
+
+
+.inputText{
+  margin-top: 10rem;
+  padding: 10px;
+  border: none;
+}
+
+
+
+
