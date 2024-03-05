@@ -389,16 +389,23 @@ nav.mob-view {
   .inputText {
     margin-top: 10px;
   }
+  .inputText {
+    visibility: hidden;
+  }
   .searchOption {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 40px;
-    margin-left: 10px;
+    position: relative;
+  }
+  .search {
+    border-bottom: 1px solid #d2d2d2;
+    margin-top: 1px;
+    padding-bottom: 9px;
   }
   .inputText {
     border: 1px solid black;
     padding: 10px;
+    position: absolute;
+    margin-top: 20px;
+    right: 0px;
   }
   .desk-view {
     display: block !important;

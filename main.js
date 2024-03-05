@@ -45,18 +45,110 @@
 
 
 
-function showSection() {
-    var inputText = document.querySelector('.inputText').value.toLowerCase();
-    var sections = ['hero', 'card', 'even'];
 
-    sections.forEach(function (section) {
-        var element = document.getElementById(section + 'Section');
-        if (element) {
-            element.style.display = (inputText.includes(section)) ? 'block' : 'none';
-        }
-    });
+
+
+// let inputText = document.querySelector(".inputText").value.toLowerCase()
+// let sections = ['heroSection', 'cardSection','evenSection']
+
+// function showSection(section){
+//     sections.forEach(value){
+//         if(sections.value == 'heroSection'){
+//          sections.style.display = ? 'block' : 'none';
+//         }
+//     }
+// }
+
+
+// const heroSection = document.getElementById("heroSection");
+// const cardSection = document.getElementById("cardSection");
+// const evenSection = document.getElementById("evenSection");
+// const inputText = document.getElementById("inputText");
+
+// let sections = ["heroSection","cardSection","evenSection"]
+
+// function showSection(){
+//     sections.forEach(value){
+//         if(sections.value == 'heroSection'){
+//             sections.style.display = (inputText.includes(sections)) ? 'block' : 'none';
+//         }
+//     }
+
+
+
+// let inputText = documet.querySelector('.inputText')
+// let sectionArr = ['heroSection', 'cardSection','evenSection']
+// function showSection() {
+//     inputText.value.toLowerCase()
+//     sectionArr.forEach( (sectionValue) => {
+//         let element = document.getElementById(sectionValue)
+//         if(element){
+//             element.style.display = (inputText.includes(element) ? "block" : "none")
+//         }
+//     })    
+// }
+
+// let search = document.querySelector('.search').addEventListener('click', () => { 
+// if 
+// (if inputText.value.)
+// })
+
+//-----------------------------------------------------------------------------------------------
+
+// function showSection() {
+//     let inputText = document.querySelector('.inputText').value.toLowerCase();
+//     let sections = ['hero', 'card', 'event','footer'];
+
+//     sections.forEach( (x)=> {
+//         let element = document.getElementById(x + 'Section');
+//         if (element) {
+//             element.style.display = (inputText.includes(x)) ? 'block' : 'none';
+//         }
+//     });
+
+// }
+
+
+
+//     document.querySelector('.inputText').addEventListener('input', showSection);
+
+
+//     document.querySelector('.search').addEventListener('click', function() {
+//     let inputText = document.querySelector('.inputText');
+//    inputText.style.visibility = (inputText.style.visibility === 'hidden') ? 'visible' : 'hidden';
+// });
+
+//--------------------------------------------------------
+
+
+const heroSection = document.getElementById("heroSection");
+const cardSection = document.getElementById("cardSection");
+const eventSection = document.getElementById("eventSection");
+const search = document.getElementsByClassName("search")[0];
+const inputText = document.getElementById("inputText");
+
+let sections = ['hero', 'card', 'event','footer']
+function showSection(){
+    let inputText1 = inputText.value.toLowerCase()
+    sections.forEach((secName) => {
+        let element = document.getElementById(secName + 'Section');
+            if (element){
+                element.style.display = (inputText1.includes(secName)) ? 'block' : 'none';
+            }
+        
+    })
 }
+inputText.addEventListener('input', showSection);
+//------
+search.addEventListener('click', () => {
+   if(inputText.style.visibility == "hidden"){
+        inputText.style.visibility="visible";
+    }
+    else{
+        inputText.style.visibility="hidden";
+    }
+})
+//-------
 
-document.addEventListener('DOMContentLoaded', function () {
-    document.querySelector('.inputText').addEventListener('input', showSection);
-});
+
+
