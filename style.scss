@@ -402,6 +402,29 @@ nav.mob-view {
   .mob-view {
     display: none !important;
   }
+  //-----
+  .inputText {
+    margin-top: 10px;
+}
+// .inputText {
+//   display: none;
+// }
+// .heroSection, .cardSection, .evenSection {
+//     display: none;
+// }
+  .searchOption{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 10px;
+    
+    }
+    .inputText{
+      border: 1px solid black;
+      padding: 10px;
+    }
+
 
   .desk-view {
     display: block !important;
@@ -626,11 +649,6 @@ nav.mob-view {
 
 
 
-.inputText{
-  margin-top: 10rem;
-  padding: 10px;
-  border: none;
-}
 
 
 
